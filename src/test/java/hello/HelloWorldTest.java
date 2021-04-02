@@ -1,10 +1,11 @@
 package hello;
 
-import static org.junit.jupiter.api.Assertions.*;
+import org.junit.Test;
+
 
 class HelloWorldTest {
 
-    @org.junit.jupiter.api.Test
+    @Test
     void main () {
     }
 }
