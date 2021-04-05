@@ -1,5 +1,5 @@
 FROM jenkins/jenkins:Its-jdk11
-COPY target/HWorld-1.0-ARIF.jar/hello.jar
+EXPOSE 80:80
 ENTRYPOINT java -jar hello.jar
 
 
